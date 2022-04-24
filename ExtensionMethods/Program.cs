@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using ExtensionMethods.Extensions;
+using System;
+
 
 namespace ExtensionMethods
 {
@@ -10,6 +8,13 @@ namespace ExtensionMethods
     {
         static void Main(string[] args)
         {
+            //DateTime dt = new DateTime(2022, 04, 23, 8, 10, 45);
+            //Console.WriteLine(dt.ElapsedTime());
+            string s1 = "GOOD MORNING DEAR STUDENTS! :D :D :D ";
+
+            Console.WriteLine(s1.Cut(10));
+
+            Console.ReadKey();
         }
     }
 }
